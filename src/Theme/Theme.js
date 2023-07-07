@@ -40,12 +40,15 @@ const theme = createTheme({
       main: "#FFFFFF",
       light: "#F1F0F0",
       dark: "#898C81",
+      brightRed: "#FD3939",
       contrastText: "#FD3939",
     },
     secondary: {
       main: "#FFFFFF",
       light: "#F1F0F0",
       dark: "#898C81",
+      space: "#F3F6F9",
+      grayishBlue:"#B5B5C3",
       contrastText: "#64D148",
     },
     common: {
