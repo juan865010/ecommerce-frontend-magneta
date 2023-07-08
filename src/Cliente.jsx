@@ -6,7 +6,8 @@ import editar from './asset/editar.jpg'
 import eliminar from './asset/eliminar.jpg'
 import Frame from './asset/Frame.jpg'
 import Frame2 from './asset/Frame2.jpg'
-
+import users from './asset/users.jpg'
+import agregar from './asset/agregar.jpg'
 const data = [
 { id: 1, NOMBRE: "Wlogan", APELLIDO_PATERNO: "Essence", APELLIDO_MATERNO: "Howard" , CORREO:"wlogan13@gmail.com",TELEFONO:"67565676"},
 { id: 2, NOMBRE: "Rosa", APELLIDO_PATERNO: "Choque", APELLIDO_MATERNO: "Lopez", CORREO:"rosa345@gmail.com", TELEFONO:"63673268"},
@@ -105,31 +106,35 @@ class App extends React.Component {
   };
 
   render() {
+    
     return (
        <>
        {
       
- }
+ } 
         <Container align="right" >
         
         <br />
       
-        <div><h3  color='#61dafb' align="left">Frasier<img  src={perfil} align="right"/></h3> </div>
+        <div><h3  color='#61dafb' align="left" class="typografia"><span class="text-muted">F</span>
+        rasier<img  src={perfil} align="right"/></h3> </div>
         <br />
         <br />
+       
         <br />
-         <div align='left' border='1px' class="MuiInputBase-root MuiInputBase-colorPrimary css-1br2x8"><input  aling ='right' autofocus="" placeholder=" 🔍 búsqueda…" type="text" aria-label="iconos de busqueda" class="MuiInputBase-input css-mnn31" value= ""/></div>
-         
-          <Button  color="success" onClick={()=>this.mostrarModalInsertar()} >Agregar Cliente</Button>
+         <div align='left'  class="MuiInputBase-root MuiInputBase-colorPrimary css-1br2x8"><input  aling ='right' autofocus="" placeholder=" 🔍 búsqueda…" type="text" aria-label="iconos de busqueda" class="MuiInputBase-input css-mnn31" value= ""/></div>
+        
+          <Button  color ="write"  onClick={()=>this.mostrarModalInsertar()} ><img src={agregar}></img> </Button>
           
           <br />
           <br />
           
           <div><h4 align="left" color='#61dafb'>Clientes/Lista de Clientes</h4> </div>
-          <Table > 
+          <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"  />
+          <Table class="table table-bordered grocery-crud-table table-hover" > 
           
             <thead  >
-              <tr align="center" color='primary' background="#373737">
+              <tr align="center" class="warning">
                 <th>ID</th>
                 <th>NOMBRE</th>
                 <th>APELLIDO </th>
@@ -147,9 +152,9 @@ class App extends React.Component {
                   <td>{dato.CORREO}</td>
                   <td>{dato.TELEFONO}</td>
                   <td>
-                    <Button color="write" border-radius="6px" onClick={this.Modalhistorial } >Historial</Button>
+                    <Button color="write"  onClick={this.Modalhistorial } >Historial</Button>
                     <img src={editar} onClick={() => this.mostrarModalActualizar(dato.id)}></img>
-                    <img src={eliminar} onClick={() => this.eliminar(dato)}></img>
+                    <img src={eliminar}  onClick={() => this.eliminar(dato)}></img>
                   
                     
 
@@ -165,7 +170,7 @@ class App extends React.Component {
         
           <ModalHeader>
           
-          <div><h1  color='#61dafb'> Frasier  </h1></div>
+          <div><h1  color='#61dafb'> <span class="text-muted">F</span>rasier  </h1></div>
           <img  src={perfil} align="right" />
           <div><h3> Clientes/Editar cliente</h3> </div>
           
@@ -355,8 +360,8 @@ class App extends React.Component {
           </ModalBody>
 
           <ModalFooter>
-            <Button
-              color="primary"
+            <Button class="style"
+              
               onClick={() => this.editar(this.state.form)}
             >
               Editar
@@ -372,7 +377,7 @@ class App extends React.Component {
         <Modal isOpen={this.state.modalInsertar}>
           <ModalHeader>
  
-          <div><h3  color='#61dafb'>Frasier<img  src={perfil} align="right"/> </h3> </div>
+          <div><h3  color='#61dafb'><span class="text-muted">F</span>rasier<img  src={perfil} align="right"/> </h3> </div>
         
            <div><h3>clientes/Agregar nuevo cliente</h3></div>
           </ModalHeader>
@@ -572,12 +577,7 @@ class App extends React.Component {
           </ModalBody>
           
           <ModalFooter>
-            <Button
-              color="primary"
-              onClick={() => this.insertar()}
-            >
-              Insertar
-            </Button>
+            <Button class="style" onClick={() => this.insertar()}> Guardar </Button>
             <Button
               className="btn btn-danger"
               onClick={() => this.cerrarModalInsertar()}

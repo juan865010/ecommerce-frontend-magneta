@@ -1,0 +1,36 @@
+table tr td {
+    padding: 20px;
+    background: transparent ;
+  }
+  .warning {
+    background: #F3F6F9;
+  }
+
+  .boton {
+    background: #000000;
+    
+  }
+.layoud{
+display: flex;
+padding: 11px 14px;
+justify-content: center;
+align-items: flex-start;
+gap: 15px;
+align-self: stretch;
+}
+
+.style{
+
+border-radius: 6px;
+background: #000;
+}
+
+.typografia{
+    color: #5F5F5F;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.36px;
+}
