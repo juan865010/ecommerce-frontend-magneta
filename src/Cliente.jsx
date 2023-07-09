@@ -6,11 +6,10 @@ import editar from './asset/editar.jpg'
 import eliminar from './asset/eliminar.jpg'
 import Frame from './asset/Frame.jpg'
 import Frame2 from './asset/Frame2.jpg'
-import users from './asset/users.jpg'
 import agregar from './asset/agregar.jpg'
 const data = [
-{ id: 1, NOMBRE: "Wlogan", APELLIDO_PATERNO: "Essence", APELLIDO_MATERNO: "Howard" , CORREO:"wlogan13@gmail.com",TELEFONO:"67565676"},
-{ id: 2, NOMBRE: "Rosa", APELLIDO_PATERNO: "Choque", APELLIDO_MATERNO: "Lopez", CORREO:"rosa345@gmail.com", TELEFONO:"63673268"},
+{ id: 1, NOMBRE: "Wlogan", APELLIDO_PATERNO: "Essen", APELLIDO_MATERNO: "Howar" , CORREO:"wloga@gmail.com",TELEFONO:"67565676"},
+{ id: 2, NOMBRE: "Rosa", APELLIDO_PATERNO: "Choque", APELLIDO_MATERNO: "Lopez", CORREO:"rosa@gmail.com", TELEFONO:"63673268"},
  
 ]
 
@@ -116,8 +115,7 @@ class App extends React.Component {
         
         <br />
       
-        <div><h3  color='#61dafb' align="left" class="typografia"><span class="text-muted">F</span>
-        rasier<img  src={perfil} align="right"/></h3> </div>
+        <div><h3  color='#61dafb' align="left" class="typografia"><span class="text-muted">F</span>rasier<img  src={perfil} align="right"/></h3> </div>
         <br />
         <br />
        
@@ -130,11 +128,11 @@ class App extends React.Component {
           <br />
           
           <div><h4 align="left" color='#61dafb'>Clientes/Lista de Clientes</h4> </div>
-          <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"  />
+          <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
           <Table class="table table-bordered grocery-crud-table table-hover" > 
           
             <thead  >
-              <tr align="center" class="warning">
+              <tr  class="warning" align="center">
                 <th>ID</th>
                 <th>NOMBRE</th>
                 <th>APELLIDO </th>
@@ -152,9 +150,11 @@ class App extends React.Component {
                   <td>{dato.CORREO}</td>
                   <td>{dato.TELEFONO}</td>
                   <td>
-                    <Button color="write"  onClick={this.Modalhistorial } >Historial</Button>
-                    <img src={editar} onClick={() => this.mostrarModalActualizar(dato.id)}></img>
+                    <Button class="btn" onClick={this.Modalhistorial } >Historial</Button>
+                    <img src={editar} onClick={()  => this.mostrarModalActualizar(dato.id)}></img>
                     <img src={eliminar}  onClick={() => this.eliminar(dato)}></img>
+                   
+                   
                   
                     
 
