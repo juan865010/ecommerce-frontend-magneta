@@ -7,9 +7,10 @@ import eliminar from './asset/eliminar.jpg'
 import Frame from './asset/Frame.jpg'
 import Frame2 from './asset/Frame2.jpg'
 import agregar from './asset/agregar.jpg'
+import historia from './asset/historia.jpg'
 const data = [
-{ id: 1, NOMBRE: "Wlogan", APELLIDO_PATERNO: "Essen", APELLIDO_MATERNO: "Howar" , CORREO:"wloga@gmail.com",TELEFONO:"67565676"},
-{ id: 2, NOMBRE: "Rosa", APELLIDO_PATERNO: "Choque", APELLIDO_MATERNO: "Lopez", CORREO:"rosa@gmail.com", TELEFONO:"63673268"},
+{ id: 1, NOMBRE: "Wlogan", APELLIDO_PATERNO: "Essence", APELLIDO_MATERNO: "Howard" , CORREO:"wlogan13@gmail.com",TELEFONO:"67565676"},
+{ id: 2, NOMBRE: "Rosa", APELLIDO_PATERNO: "Choque", APELLIDO_MATERNO: "Lopez", CORREO:"rosa345@gmail.com", TELEFONO:"63673268"},
  
 ]
 
@@ -150,7 +151,7 @@ class App extends React.Component {
                   <td>{dato.CORREO}</td>
                   <td>{dato.TELEFONO}</td>
                   <td>
-                    <Button class="btn" onClick={this.Modalhistorial } >Historial</Button>
+                    <img src={historia}></img>
                     <img src={editar} onClick={()  => this.mostrarModalActualizar(dato.id)}></img>
                     <img src={eliminar}  onClick={() => this.eliminar(dato)}></img>
                    
