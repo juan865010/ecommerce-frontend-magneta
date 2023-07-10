@@ -7,7 +7,7 @@ function App() {
     <Theme>
       {/* <NavMenu /> */}
       <HistorialPedidos/>
-      <Preferences/>
+      {/* <Preferences/> */}
     </Theme>
   );
 }

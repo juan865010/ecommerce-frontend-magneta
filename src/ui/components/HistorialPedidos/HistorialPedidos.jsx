@@ -4,13 +4,12 @@ import ListaPedidos from './ListaPedidos';
 import FiltrarPedidos from './FiltrarPedidos';
 import useStyles from './HistorialPedidos.styles';
 
-
 const HistorialPedidos = () => {
   const classes = useStyles();
   return (
     <Box sx={{display:'flex',width:200}} >
       <Container className={classes.containersx}>
-        <Grid container spacing={3}>
+        <Grid container>
           {/*lista pedidos*/}
           <Grid item>
             <Paper className={classes.sx}>
