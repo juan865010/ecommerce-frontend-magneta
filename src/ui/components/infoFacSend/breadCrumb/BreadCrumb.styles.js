@@ -6,13 +6,28 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'flex-end',
     alignContent: 'center',
     marginBottom: '-0.5rem',
+    width: '100%',
+    paddingRight: '2rem',
+  },
+  breadcrumbContainer: {
+    display: "flex",
+    justifyContent: 'flex-end',
     [mq("xxs")]: {
-      paddingRight: '1rem',
+      width: '100%'
     },
     [mq("md")]: {
-      paddingRight: '12rem',
-      
+      width: '65%'
     },
   },
+  breadcrumb: {
+    display: 'flex',
+    justifyContent: 'center',
+    [mq("xxs")]: {
+      width: '5rem'
+    },
+    [mq("md")]: {
+      width: '8.5rem'
+    },
+  }
 }));
 export default useStyles;
