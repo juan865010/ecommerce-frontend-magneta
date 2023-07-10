@@ -1,7 +1,6 @@
 import { makeStyles } from "@material-ui/core";
 import mq from "../../../config/mq";
 const useStyles = makeStyles((theme) => ({
-<<<<<<< HEAD
     boxContainer:{
         width:'912px',
         // background:'skyblue',
@@ -13,14 +12,6 @@ const useStyles = makeStyles((theme) => ({
         width:'912px',
         // background:'red',
     }, 
-=======
-    cabezera:{
-        margin:0,
-        padding:0,
-        width:'912px',
-    }, 
-    
->>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
     let:{
         fontSize:'12px',
     },
@@ -28,7 +19,6 @@ const useStyles = makeStyles((theme) => ({
         fontSize:'14px',
     },
     p:{
-<<<<<<< HEAD
         width:'854px',
         height:'43px',
         border:0,
@@ -37,15 +27,6 @@ const useStyles = makeStyles((theme) => ({
         width:'887px',
         backgroundColor:'#F3F6F9',  
         background:'yellow',      
-=======
-        width:'887px',
-        height:'43px',
-        padding:'0px 0px 0px 0px ',
-        border:0,
-    },
-    titleStyle:{
-        backgroundColor:'#F3F6F9',        
->>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
         borderRadius:'6px',
         marginTop:'10px',
         marginLeft:'11px',
@@ -62,65 +43,20 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'left',
         width:'60.78px',
         height:'18px',
-<<<<<<< HEAD
         // padding: 10,
-=======
-        padding: 10,
->>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
         bgcolor: 'pink',
         border: '1px solid red',
         borderRadius: 2,
         fontSize: '0.875rem',
         fontWeight: '700',
     },
-<<<<<<< HEAD
     TableHeadboxStyle1:{
         background:'red',
-=======
-    TableHeadbox1:{
-        display: 'contents',
-        flexDirection: 'left',
-        width:'41px',
-        height:'18px',
-        backgroundColor:'blue',
-    },
-    TableHeadbox2:{
-        display: 'contents',
-        flexDirection: 'left',
-        width:'50.65px',
-        height:'18px',
-        backgroundColor:'blue',
-    },
-    TableHeadbox3:{
-        display: 'contents',
-        width:'50.65px',
-        flexDirection: 'left',
-        height:'18px',
-        backgroundColor:'blue',
-    },
-    TableHeadbox4:{
-        display: 'contents',
-        flexDirection: 'left',
-        width:'50.65px',
-        height:'18px',
-        backgroundColor:'blue',
-    },
-    TableHeadbox5:{
-        display: 'contents',
-        flexDirection: 'left',
-        width:'50.65px',
-        height:'18px',
-        backgroundColor:'blue',
-    },
-    TableHeadboxStyle1:{
-        backgroundColor:'red',
->>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
         width:'41px',
         display:'flex',
         flexDirection:'column',
     },
     TableHeadstyletexto:{
-<<<<<<< HEAD
         height:'18px',
         width:'60.779px',
         marginLeft:'20.08px',
@@ -161,36 +97,10 @@ const useStyles = makeStyles((theme) => ({
         lineHeight:'normal',
         fontFamily: "Poppins-Regular",
         letterSpacing:'0.36px',
-=======
-        padding: '12px 59.75px 13px 28.08px',
-        height:'43px',
-        fontSize:'12px',
-        lineHeight:'18px',
-        fontWeight:600,
-        color:'#000000',
-    },
-    TableHeadstyletexto1:{
-        width:'41px',
-        height:'43px',
-        padding: '12px 125.73px 13px 0px ',
-        fontSize:'12px',
-        lineHeight:'18px',
-        fontWeight:600,
-        color:'#000000',
-    },
-    TableHeadstyletexto2:{
-        width:'50.65px',
-        height:'43px',
-        padding: '12px 119.01px 13px 0px',
-        fontSize:'12px',
-        lineHeight:'18px',
-        
->>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
         fontWeight:600,
         color:'#000000',
     },
     TableHeadstyletexto3:{
-<<<<<<< HEAD
         width:'242px',
         height:'18px',
         marginLeft:'0px',
@@ -217,30 +127,11 @@ const useStyles = makeStyles((theme) => ({
         lineHeight:'normal',
         letterSpacing:'0.36px',
         fontFamily: "Poppins-Regular",
-=======
-        
-        width:'70px',
-        height:'43px',
-        padding: '12px 233.35px 13px 0px',
-        fontSize:'12px',
-        lineHeight:'18px',
-        
-        fontWeight:600,
-        color:'#000000',
-    },
-    TableHeadstyletexto4:{
-        width:'66px',
-        height:'43px',
-        fontSize:'12px',
-        padding: '12px 100px 13px 0px',
-        lineHeight:'18px',
->>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
         fontWeight:600,
         color:'#000000',
     },
     TableHeadstyletexto5:{
         width:'88px',
-<<<<<<< HEAD
         height:'18px',
         fontSize:'12px',
         marginLeft:'0px',
@@ -252,14 +143,6 @@ const useStyles = makeStyles((theme) => ({
         fontFamily: "Poppins-Regular",
         fontWeight:600,
         letterSpacing:'0.36px',
-=======
-        height:'43px',
-        fontSize:'12px',
-        padding: '12px 109.43px 13px 31.8px',
-        lineHeight:'18px',
-
-        fontWeight:600,
->>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
         color:'#000000',
     },
     stylebody:{
@@ -383,7 +266,6 @@ const useStyles = makeStyles((theme) => ({
         marginLeft:'31px',
         marginRight:'21px',
     },
-<<<<<<< HEAD
     Lista:{
         background:'#FFF',
         width:'912px',
@@ -490,7 +372,5 @@ const useStyles = makeStyles((theme) => ({
         marginLeft:'31px',
         marginRight:'21px',
     },  
-=======
->>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
 }));
 export default useStyles;

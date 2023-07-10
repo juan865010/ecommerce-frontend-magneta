@@ -4,20 +4,12 @@ import ListaPedidos from './ListaPedidos';
 import FiltrarPedidos from './FiltrarPedidos';
 import useStyles from './HistorialPedidos.styles';
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
 const HistorialPedidos = () => {
   const classes = useStyles();
   return (
     <Box sx={{display:'flex',width:200}} >
       <Container className={classes.containersx}>
-<<<<<<< HEAD
         <Grid container>
-=======
-        <Grid container spacing={3}>
->>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
           {/*lista pedidos*/}
           <Grid item>
             <Paper className={classes.sx}>
