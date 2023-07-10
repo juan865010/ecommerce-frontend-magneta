@@ -79,12 +79,13 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        margin:"20px 50px 0 0px",
+        margin:"20px 50px 0px 0px",
     },
     corazon: {
         marginRight: theme.spacing(1),
         width:"50px",
         height:"45px",
+        margin:"25px 25px 25px 25px",
     },
     button: {
         backgroundColor: 'black',
@@ -103,6 +104,12 @@ const useStyles = makeStyles((theme) => ({
         fontSize:"18px",
         },
     },
+    cont:{
+        padding:"",
+    },
+    imgn1:{
+        width:"240px",
+    }
 
   }));    
   export default useStyles;

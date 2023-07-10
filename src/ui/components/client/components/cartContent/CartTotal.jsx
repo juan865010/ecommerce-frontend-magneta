@@ -12,10 +12,16 @@ const CartTotal = () => {
         <h2 className={classes.title}>Totales</h2>
         <Box className={classes.totl}>
             <Typography  className={classes.total2}>SUBTOTAL:</Typography>
-            <Typography className={classes.numb}>${total}</Typography>
+            <Typography className={classes.numb1}>${total}</Typography>
         </Box>
-        <h4>Envio: Bolivia</h4>
-        <button className={classes.buton1}>APLICAR CUPON</button> <br />
+        <div className={classes.bo}>
+        <h4>ENVIO</h4>
+        <p className={classes.p}>Potosi - Bolivia</p>
+        </div>
+        <div className={classes.btn}>
+          <p>Aplcar Cupon</p>
+          <button className={classes.buton1}>APLICAR CUPON</button> <br />
+        </div>
         <hr />
         
         <Box className={classes.totl}>

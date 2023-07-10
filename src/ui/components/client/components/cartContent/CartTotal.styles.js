@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
    buton2:{
         backgroundColor: 'black',
         color: 'white',
-        width: "462px",
+        width: "380px",
         height: "53px",
         backgroundColor: 'black',
         fontSize:"16px",
@@ -31,10 +31,11 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'black',
         color: 'white',
         width: "168px",
-        height: "53px",
+        height: "43px",
         backgroundColor: 'black',
         fontSize:"16px",
-    
+        
+        margin:"0 0 0 120px",
         border: 'none',
         cursor: 'pointer',
         transition: 'background-color 0.3s ease',
@@ -60,7 +61,21 @@ const useStyles = makeStyles((theme) => ({
         justifyContent:"flex-end",
         fontSize:"16px",
         fontWeight:"bold",
-   }    
+   },
+   numb1:{
+     color:"#707070",
+}    ,
+     bo:{
+          display:"flex", 
+          
+    justifyContent:"space-between",
+     },
+     btn:{
+          display:"flex", 
+          
+    justifyContent:"space-between",
+     }
+
     
   }));    
   export default useStyles;
