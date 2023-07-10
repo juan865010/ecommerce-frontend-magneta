@@ -7,7 +7,11 @@ function App() {
     <Theme>
       {/* <NavMenu /> */}
       <HistorialPedidos/>
+<<<<<<< HEAD
       {/* <Preferences/> */}
+=======
+      <Preferences/>
+>>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
     </Theme>
   );
 }

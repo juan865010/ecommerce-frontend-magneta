@@ -3,6 +3,7 @@ import mq from "../../../config/mq";
 
 const useStyles = makeStyles((theme) => ({
     container:{
+<<<<<<< HEAD
         // background:'yellow',
         width:'240px',
     },
@@ -44,14 +45,36 @@ const useStyles = makeStyles((theme) => ({
         letterSpacing:'0.44px',
         color:'#000000',
         // display:'flex',
+=======
+        width:'100%',
+        padding:'20px 0px 0px 19px',
+    },
+    hr:{
+        width:'197px'
+    },
+    title:{
+        width:'134px',
+        height:'31.5px',
+    },
+    textoTitle:{
+        fontSize:'24px',
+        lineHeight:'24px',
+        lineWeight:600,
+        letterSpacing:0.44,
+        color:'#000000',
+>>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
     },
     icons:{
         width:"21.33px",
         height:"19.33px",
+<<<<<<< HEAD
         marginLeft:'5px',
         marginTop:'5px',
         marginBock:'2.5px',
         marginRigth:'35px',
+=======
+        padding:'0.67px 0px 0px 4.5px',
+>>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
     },
     checkBoxIcons:{
         color:'red',
@@ -62,6 +85,7 @@ const useStyles = makeStyles((theme) => ({
         height:'15px',
     },
     Boxsliders:{
+<<<<<<< HEAD
         // backgroundColor:'#D9D9D9',
         height:'1.44px',
         width: '166px',
@@ -75,12 +99,25 @@ const useStyles = makeStyles((theme) => ({
         //     backgroundColor:'red',
         //     fontSize:'10px',
         // },
+=======
+        backgroundColor:'#D9D9D9',
+        height:'1.44px',
+        fontSize:'15px',
+        maxHeight:'60px',
+        color:'#000000',
+        padding:'50.9px 0px 0px 0px',
+        '.MuiSlider-track':{
+            backgroundColor:'red',
+            fontSize:'10px',
+        },
+>>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
     },
     Boxs:{
         backgroundColor:'#D9D9D9',
         height:'5px',   
     },
     LetrasFecha:{
+<<<<<<< HEAD
         // padding:'12px 0px 7px 13px'
         marginTop:'12px',
         color: '#54595E',
@@ -119,6 +156,28 @@ const useStyles = makeStyles((theme) => ({
     },
     icon:{
         // background:'blue',
+=======
+    
+        padding:'12px 0px 7px 13px'
+    },
+    BoxFecha:{
+        height:'8px',
+        background:'blue',
+    },
+    boxCalendar:{
+        display:'flex',
+    
+        height:'34px',
+        width:'187px',
+        marginTop:'0px',
+        marginLeft:'10px',
+        padding:'5px 2px 10px 10px',
+        borderRadius:'5px',
+        border:'1px solid #54595E',
+    },
+    icon:{
+        background:'blue',
+>>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
         width:'8.57px',
         height:'4.29px',
         color: "white",
@@ -126,7 +185,11 @@ const useStyles = makeStyles((theme) => ({
         marginBlock:'10px',
     },
     IconCalendario:{
+<<<<<<< HEAD
         // background:'pink',
+=======
+        background:'pink',
+>>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
         maxWidth:'18px',
         minWidth:'18px',
         height:'0px',
@@ -154,6 +217,7 @@ const useStyles = makeStyles((theme) => ({
     boxLetras:{
         width:'133px',
         height:'18px',
+<<<<<<< HEAD
         marginTop:'7px',
         marginLeft:'0px',
         marginBlock:'7px',
@@ -305,6 +369,20 @@ const useStyles = makeStyles((theme) => ({
         fontStyle: 'normal',
         fontWeight: 600,
         lineHeight: 'normal',
+=======
+        fontWeight:'400px',
+        fontSize:'11px',
+        lineHeight:'18px',
+        textAlign:'center',
+    },
+    IconCalendar:{
+        height:'18px',
+        width:'18px',
+        '.MuiBottomNavigationAction-root': {
+            color: "#007A78",
+            heigth:"1px"
+        },
+>>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
     },
 }));
 export default useStyles;

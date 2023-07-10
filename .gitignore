@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /node_modules
 
 # testing
@@ -16,3 +17,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+=======
+node_modules
+>>>>>>> 4f158bd19a70584a1352ff6855ae646539b582e0
