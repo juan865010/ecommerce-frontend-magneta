@@ -1,9 +1,12 @@
 import Theme from "./Theme/Theme";
-import NavMenu from "./ui/components/navMenu/NavMenu";
+import ScreenFr from "./ui/components/ScreenFr/ScreenFr";
+import { MyContextProvider } from "./ui/components/Contexto/MyContext";
 function App() {
   return (
     <Theme>
-      <NavMenu />
+      <MyContextProvider>
+      <ScreenFr></ScreenFr>
+        </MyContextProvider> 
     </Theme>
   );
 }
