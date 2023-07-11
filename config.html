@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>OPINIONES</title>
+    <link rel="stylesheet" href="css/simplebar.css">
+    <link rel="stylesheet" href="css/feather.css">
+    <link rel="stylesheet" href="css/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="css/daterangepicker.css">
+    <link rel="stylesheet" href="css/app-light.css" id="lightTheme">
+    <link rel="stylesheet" href="css/stars.css">
+                              
+<style>.checked{
+  color: orange;
+}
+th{
+  background:#F2F6F9;
+  color: black;
+}  
+.badge{
+  padding: 7px;
+}
+</style>    
+  </head>
+  <body class="vertical  light  ">
+    <div class="wrapper">
+      <nav class="topnav navbar navbar-light" style="background-color:#ffffff;">
+        <button type="button" class="navbar-toggler text-muted mt-2 p-0 mr-3 collapseSidebar">
+          <i class="fe fe-menu navbar-toggler-icon"></i>
+        </button>
+        <form class="form-inline mr-auto searchform text-muted">
+          <input class="form-control mr-sm-2 bg-transparent border-0 pl-4 text-muted" type="search" placeholder="Buscar" aria-label="Buscar">
+        </form>
+        <ul class="nav">
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-muted pr-0" href="#" aria-expanded="false">
+              <span class="avatar avatar-sm mt-2">
+                <img src="./assets/avatars/face-1.jpg" alt="..." class="avatar-img rounded-circle"> 
+                  Jhon Jacob
+              </span>
+            </a>           
+          </li>
+        </ul>
+      </nav>
+      <aside class="sidebar-left border-right bg-white shadow" id="leftSidebar" data-simplebar>
+        <a href="#" class="btn collapseSidebar toggle-btn d-lg-none text-muted ml-2 mt-3" data-toggle="toggle">
+          <i class="fe fe-x"><span class="sr-only"></span></i>
+        </a>
+        <nav class="vertnav navbar navbar-light">         
+          <div class="w-100 mb-4 d-flex">
+            <a class="navbar-brand mx-auto mt-2 flex-fill text-center" href="./index.html">
+             <img src="assets/images/logo.png">
+            </a>
+          </div>
+          <ul class="navbar-nav flex-fill w-100 mb-2">           
+            <li class="nav-item w-100">
+              <a class="nav-link" href="index.html">
+                <i class="fe fe-home fe-16"></i>
+                <span class="ml-3 item-text">Inicio</span>
+              </a>
+            </li> 
+            <li class="nav-item w-100">
+              <a class="nav-link" href="#">
+                <i class="fe fe-box fe-16"></i>
+                <span class="ml-3 item-text">Pedidos</span>
+              </a>
+            </li> 
+            <li class="nav-item w-100">
+              <a class="nav-link" href="#">
+                <i class="fe fe-users fe-16"></i>
+                <span class="ml-3 item-text">Clientes</span>
+              </a>
+            </li> 
+            <li class="nav-item w-100">
+              <a class="nav-link" href="#">
+                <i class="fe fe-file-text fe-16"></i>
+                <span class="ml-3 item-text">Promociones</span>
+              </a>
+            </li> 
+            <li class="nav-item w-100">
+              <a class="nav-link" href="#">
+                <i class="fe fe-message-circle fe-16"></i>
+                <span class="ml-3 item-text">Opiniones</span>
+              </a>
+            </li> 
+            <li class="nav-item w-100">
+              <a class="nav-link" href="#">
+                <i class="fe fe-target fe-16"></i>
+                <span class="ml-3 item-text">Configuración</span>
+              </a>
+            </li>                        
+            
+          </ul>
+         
+        </nav>
+      </aside>
+      <main role="main" class="main-content">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-md-9 my-4">
+                  <div class="card shadow">
+                    <div class="card-body">
+                       <h3>Configuracion del sistema</h3> <hr>
+                       <a class="badge badge-dark" href="config-llenaropiniones.html">
+                        CARGAR DATOS DE OPINIONES PARA PRUEBA</a>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-md-3 my-4">
+                  <div class="card shadow">
+                    <div class="card-body">
+                     <h3>Filtrar <i class="fe fe-filter fe-16"></i></h3><hr>
+                     <h6>Categoría</h6>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Lorem1">
+                        <label class="custom-control-label" for="Lorem1">Lorem</label>
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Lorem2">
+                        <label class="custom-control-label" for="Lorem2">Lorem</label>
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Lorem3">
+                        <label class="custom-control-label" for="Lorem3">Lorem</label>
+                      </div>
+                      <hr>
+                      <h6>Seleccionar fecha</h6>
+                      <div class="input-group">
+                        <input type="text" class="form-control drgpicker" id="date-input1" value="04/24/2020" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                          <div class="input-group-text" id="button-addon-date"><span class="fe fe-calendar fe-16"></span></div>
+                        </div>
+                      </div>
+                      <hr>
+                      <h6>Material</h6>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Mat1">
+                        <label class="custom-control-label" for="Mat1">Metals</label>
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Mat2">
+                        <label class="custom-control-label" for="Mat2">Plastic</label>
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Mat3">
+                        <label class="custom-control-label" for="Mat3">Glass</label>
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Mat4">
+                        <label class="custom-control-label" for="Mat4">Ceramic</label>
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Mat5">
+                        <label class="custom-control-label" for="Mat5">Minerals</label>
+                      </div>
+                      <hr>
+                      <h6>Cantidad</h6>
+                      <div class="input-group">
+                        <input type="range" min="0" max="500" value="1" class="input-group-text">
+                      </div>                     
+
+                    </div>
+                  </div>
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+        </div>
+        
+      </main> 
+    </div> 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src='js/daterangepicker.js'></script>
+    <script src='js/jquery.stickOnScroll.js'></script>
+    <script src="js/tinycolor-min.js"></script>
+    <script src='js/jquery.dataTables.min.js'></script>
+    <script src='js/dataTables.bootstrap4.min.js'></script>    
+    <script src='js/jquery.timepicker.js'></script>
+  </body>
+</html>
+<script>
+$('.drgpicker').daterangepicker({
+  singleDatePicker: true,
+  timePicker: false,
+  showDropdowns: true,
+  locale:{
+    format: 'MM/DD/YYYY'
+  }
+});
+</script>
+<script>
+  let num=0;
+  let CantRegs=0;
+  $(document).ready(function(){	
+    initDatabase();
+  });
+  var creaTab = "CREATE TABLE IF NOT EXISTS Opiniones(op_id INTEGER PRIMARY KEY AUTOINCREMENT, producto TEXT, cliente TEXT, op_calificacion INT, op_opiniones TEXT, op_fecha DATE);"; 
+  var SelUsuarioRegistrado = "SELECT * FROM Opiniones;"; 
+  var insertStatement = "INSERT INTO Opiniones(producto, cliente, op_calificacion, op_opiniones, op_fecha)VALUES(?,?,?,?,?);";
+  var db = openDatabase("Sistemas", "1.0", "Sistemas", 200000); 
+  var dataset;
+  var DataType;
+   
+  function initDatabase(){
+      try {
+          if (!window.openDatabase){
+              $('#datos').html('Sin Acceso a la Base de Datos!!!');
+          }
+          else {
+              crearTablas();
+          }
+      }
+   
+      catch (e) {
+          if (e == 2) {
+        $('#result').html("Version error de la DB");
+          } else {
+              $('#result').html("Error " + e + ".");
+          }
+      return;
+      }
+  }
+  function crearTablas(){
+     db.transaction(function (tx) { tx.executeSql(creaTab, [], showRecords, onError); });
+  }
+   
+  function insertRecord(){
+     var txtNombres = $('#txtNombres').val();
+     var txtApellidos = $('#txtApellidos').val();
+     var txtEdad = $('#txtEdad').val();
+      
+      db.transaction(function (tx) { tx.executeSql(insertStatement, [txtNombres, txtApellidos, txtEdad], loadAndReset, onError); });
+  }
+   
+  function loadAndReset(){
+      showRecords();
+  }
+   
+  function onError(tx, error){
+    alert(error.message);
+  }
+   
+  function showRecords(){  
+      db.transaction(function (tx) {
+          tx.executeSql(SelUsuarioRegistrado, [], function (tx, result) {
+              dataset = result.rows; 
+              for (var i = 0, item = null; i < dataset.length; i++) {
+              item = dataset.item(i);
+          var reg = item['us_nombres'] + ' '+item['us_apellidos'];               
+              } $("#txtUsuario").append(reg);			
+          });
+      });    
+  }	
+</script>
