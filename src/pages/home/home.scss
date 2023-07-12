@@ -1,0 +1,119 @@
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+    background: #f7f5f5;
+    
+    .widgets,
+    .charts {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .charts {
+      padding: 5px 20px;
+    }
+
+    .listContainer {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 20px;
+      margin: 20px;
+
+      .listTitle {
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+#tablelist{
+  width: 98%;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+#categoriaid {
+  color: black;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+#checkdiv {
+  margin-left: 20px;
+}
+
+#sliderdiv {
+  margin-left: 20px;
+  color: black;
+}
+
+#divfilter {
+  background: white;
+  margin-top: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+
+#TableRowdiv{
+  background: #CECECE;
+}
+
+#tablecelldiv{
+  color: black;
+  font-weight: bold;
+}
+
+#addproduct{
+  background: black;
+  color: white;
+  padding: 15px;
+  width: 15%;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 800px;
+  margin-top: -65px;
+}
+
+.imageTextContainer {
+  display: flex;
+  align-items: center;
+}
+
+.imageContainer {
+  margin-right: 10px;
+}
+
+.textContainer {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.actionIcons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.actionIcon {
+  font-size: 20px;
+  color: #615f5f;
+}
+
+.actionIcon:hover {
+  color: #141313;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #divfilter {
+    margin-top: 2px;
+    margin-left: 20px;
+    box-shadow: 2px 4px 10px 1px rgba(255, 0, 0, 0.47);
+  }
+}
