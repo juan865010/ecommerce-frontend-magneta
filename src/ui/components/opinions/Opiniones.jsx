@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import useStyles from "./Opiniones.style";
 import { Container } from "@material-ui/core";
-import Filtrars from "../opinions/filtrars/Filtrar"
+import { Box } from "@material-ui/core";
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Button,} from "@material-ui/core";
 
 
@@ -55,19 +55,18 @@ const opiniones = [
     };
  
     return (
-        <div className={classes.wrapper}>
-            <>
+        <Box className={classes.wrapper}>
             <Container className={classes.Container}>
-                <TableContainer className={classes.TableContainer} >
+                <TableContainer className={classes.tableContainer} >
                     <Table >
                         <TableHead>
-                            <TableRow className={classes.TableHead}>  
-                                <TableCell>PRODUCTO</TableCell>
-                                <TableCell>CLIENTE</TableCell>
-                                <TableCell>CALIFICACION</TableCell>
-                                <TableCell>COMENTARIO</TableCell>
-                                <TableCell>FECHA</TableCell>
-                                <TableCell>ACCÍON</TableCell>   
+                            <TableRow className={classes.tableHead}>  
+                                <TableCell className={classes.text}>PRODUCTO</TableCell>
+                                <TableCell className={classes.text}>CLIENTE</TableCell>
+                                <TableCell className={classes.text}>CALIFICACION</TableCell>
+                                <TableCell className={classes.text}>COMENTARIO</TableCell>
+                                <TableCell className={classes.text}>FECHA</TableCell>
+                                <TableCell className={classes.text}>ACCÍON</TableCell>   
                             </TableRow>
                         </TableHead>
                         <TableBody >
@@ -88,9 +87,7 @@ const opiniones = [
                     </Table>
                 </TableContainer>
             </Container>
-            <Filtrars />
-            </>
-        </div>
+        </Box>
     )
 }
 export default Opiniones;

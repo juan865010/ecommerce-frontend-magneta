@@ -2,36 +2,46 @@ import { makeStyles } from "@material-ui/core";
 import mq from "../../../config/mq";
 const useStyles = makeStyles((theme) => ({
     Container:{
-        width: "57rem",
-        height: "42rem",
-        left: "15rem",
+        width: "912px",
+        height: "673px",
         display: "flex",
         border:"1px solid #CDCDCD",
         borderRadius: "0.75rem",
         backgroundColor: theme.palette.primary.main,        
     },
-    TableContainer: {
+    tableContainer: {
         width: "874px",
         marginTop: "22px",
         alignItems: "center",
         overflowX: "auto",
-        borderRadius: "6px"
+        borderRadius: "6px",
+        gap: "22px",
+
     },
 
-    TableHead:{
+    tableHead:{
         borderRadius: "6px",
         backgroundColor: theme.palette.secondary.space,
         fontFamily:"Poppins-Regular",
     },
+     text:{
+        fontFamily:"Poppins-Regular",
+        fontSize:"12px",
+        fontWeight: 600,
+        lineHeight: "18px",
+        letterSpacing: "0.03em",
+        textAlign: "left",
+
+     },
 
     TableRow:{
         fontFamily:"Poppins-Regular",
         color: theme.palette.secondary.grayishBlue, 
+        fontFamily: "Poppins",
+
     },
 
     buton:{
-        display:"flex",
-        flexDirection:"row",
         justifyContent:"center",
         alignItems:"center",
         padding:"5px, 12px",
@@ -40,6 +50,16 @@ const useStyles = makeStyles((theme) => ({
         color: theme.palette.secondary.main,
         fontFamily:"Poppins-Regular",
         fontSize:"10px",
+        gap: "41px",
+        
+        fontFamily: "Poppins",
+        fontSize: "10px",
+        fontWeight: "700",
+        lineHeight: "15px",
+        letterSpacing: "0.03em",
+        textAlign: "left",
+
+
     },
 
     wrapper: {
@@ -52,7 +72,6 @@ const useStyles = makeStyles((theme) => ({
         },
         [mq("md")]: {
           flexDirection: 'row',
-          margin: '6.3rem',
         },
     },
 }));

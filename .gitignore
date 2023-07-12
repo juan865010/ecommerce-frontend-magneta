@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /node_modules
 
 # testing
@@ -17,6 +16,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-=======
 /node_modules
->>>>>>> d9589ad (feature(common): adding the file of list opinions in the files [WEBSITE-5])
