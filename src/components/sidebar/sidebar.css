@@ -1,0 +1,86 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid #e6e3e3;
+  min-height: 100vh;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar .top {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.sidebar .top .logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.sidebar hr {
+  height: 0;
+  border: 0.5px solid #e6e3e3;
+}
+
+.sidebar .center {
+  padding-left: 10px;
+}
+
+.sidebar .center ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .center ul li {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.sidebar .center ul li:hover {
+  background-color: #ece8ff;
+}
+
+.sidebar .center ul li .icon {
+  font-size: 18px;
+  color: black;
+}
+
+.sidebar .center ul li span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #888;
+  margin-left: 10px;
+}
+
+.sidebar.open .center ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.open .center ul li {
+  padding: 10px;
+}
+
+.sidebar.open .center ul li .icon {
+  font-size: 16px;
+}
+
+.sidebar.open .center ul li span {
+  font-size: 60px;
+  margin-left: 5px;
+}
+
+#spansider{
+  font-size: 18px;
+}
