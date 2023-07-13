@@ -368,7 +368,7 @@ const useStyles = makeStyles((theme) => ({
     hr:{
         background:'#CDCDCD',
         maxWidth:'860px',
-        height:'1px',
+        height:'2px',
         marginLeft:'31px',
         marginRight:'21px',
     },  

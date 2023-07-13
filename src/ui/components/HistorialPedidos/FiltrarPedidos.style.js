@@ -306,5 +306,10 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 600,
         lineHeight: 'normal',
     },
+    fechaStyle:{
+        // background:'red',
+        marginTop:'35px',
+        position:'fixed'
+    },
 }));
 export default useStyles;

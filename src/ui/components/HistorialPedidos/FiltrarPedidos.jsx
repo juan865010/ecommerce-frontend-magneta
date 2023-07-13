@@ -2,16 +2,14 @@ import React from 'react'
 import {Box} from '@material-ui/core'
 import {Typography} from '@material-ui/core'
 import {Divider} from '@material-ui/core'
-import {FormGroup} from '@material-ui/core'
-import {FormControlLabel} from '@material-ui/core'
-import {Checkbox} from '@material-ui/core'
-import {FormControl} from '@material-ui/core'
 import {Slider} from '@material-ui/core';
 import useStyles from './FiltrarPedidos.style'
 import {SvgIcon} from '@material-ui/core';
 import { addDays,format } from 'date-fns';
-import { useState,useEffect } from 'react';
-import { Calendar, DateRange } from 'react-date-range'
+import { useState} from 'react';
+import { DateRange } from 'react-date-range'
+import 'react-date-range/dist/styles.css'; 
+import 'react-date-range/dist/theme/default.css';
 // 
 
 
@@ -19,7 +17,7 @@ import { Calendar, DateRange } from 'react-date-range'
 function valuetext(value) {
   return `${value}`;
 }
-const marks = [
+const top = [
   {
     value: 0,
     label: '0',
@@ -145,12 +143,13 @@ const handleChanges = (event, newValue) => {
             {isOpen && 
             (
             <DateRange
+              className={classes.fechaStyle}
               onChange={(item)=>setRange([item.selection])}
               editableDateInputs={true}
               moveRangeOnFirstSelection={false}
               ranges={range}
               months={1}
-              direction="vertical"
+              direction="horizontal"
             />) }
         </Box>
  
@@ -215,7 +214,7 @@ const handleChanges = (event, newValue) => {
           aria-labelledby="range-slider"
           getAriaValueText={valuetext}
           height={54}
-          marks={marks}
+          marks={top}
           className={classes.Boxsliders}
         />
       </Box>

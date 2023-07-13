@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "id_Producto": 41152845,
+        "fecha": "16/18/2023",
+        "estado": "Entregado",
+        "productos": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur repudiandae tempore laudantium ipsum.",
+        "cantidad": 24,
+        "precio":710.00
+    }, 
+    {
+        "id": 2,
+        "id_Producto": 41152845,
+        "fecha": "16/18/2023",
+        "estado": "Entregado",
+        "productos": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur repudiandae tempore laudantium ipsum.",
+        "cantidad": 24,
+        "precio":710.00
+    }, 
+    {
+        "id": 3,
+        "id_Producto": 41152845,
+        "fecha": "16/18/2023",
+        "estado": "Entregado",
+        "productos": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur repudiandae tempore laudantium ipsum.",
+        "cantidad": 24,
+        "precio":710.00
+    }, 
+    {
+        "id": 4,
+        "id_Producto": 41152845,
+        "fecha": "16/18/2023",
+        "estado": "Entregado",
+        "productos": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur repudiandae tempore laudantium ipsum.",
+        "cantidad": 24,
+        "precio":710.00
+    }
+]
