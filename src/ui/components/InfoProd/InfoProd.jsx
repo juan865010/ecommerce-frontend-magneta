@@ -4,11 +4,11 @@ import { MyContext } from "../Contexto/MyContext";
 import StarRating from "../Stars/Stars";
 const InfoProd = () => {
   const classes = useStyles();
-  const { idProduct,ProductosA} = useContext(MyContext);
+  const { idProduct,productsA} = useContext(MyContext);
   const [producto, setProducto] = useState(null);
 
   useEffect(() => {
-    const productoEncontrado = ProductosA.find(
+    const productoEncontrado = productsA.find(
       (producto) => producto.id === idProduct
     );
     setProducto(productoEncontrado);

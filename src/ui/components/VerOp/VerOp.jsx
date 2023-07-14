@@ -1,4 +1,4 @@
-import useStyles from "./VerOp.Styles.js";
+import useStyles from './VerOp.Styles.js';
 import { useContext } from "react";
 import InfoProd from "../InfoProd/InfoProd.jsx";
 import InfoComent from "../InfoComent/InfoComent.jsx";

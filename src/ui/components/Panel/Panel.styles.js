@@ -4,7 +4,7 @@ const useStyles = makeStyles((theme) => ({
   container: {
     margin:10,
     borderRadius:10,
-    backgroundColor:'#fff',
+    backgroundColor: theme.palette.primary.main,
     paddingTop:1,
     width:'80%',
     fontSize: 13,
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: 10,
     borderRadius: 10,
     borderCollapse: "collapse",
-    backgroundColor:'#fff',
+    backgroundColor: theme.palette.primary.main,
     fontFamily:"Poppins-Regular"
   },
   title: {
@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
   },
   btn:{
     backgroundColor:'#000',
-    color:'#fff',
+    color:theme.palette.primary.main,
     textAlign:'center',
     padding:3,
     borderRadius:7,

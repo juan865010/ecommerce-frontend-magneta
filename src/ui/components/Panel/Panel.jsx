@@ -5,11 +5,11 @@ import StarRating from "../Stars/Stars";
 import { MyContext } from "../Contexto/MyContext";
 const Panel = () => {
   const classes = useStyles();
-  const { setDetalle, idComent, setIdComent, idProduct, setIdProduct,ProductosA,Comentarios} =
+  const { setDetalle, idComent, setIdComent, idProduct, setIdProduct,productsA,Comentarios} =
     useContext(MyContext);
     const Editar = (idC, nmPr) => {
         setIdComent(idC);
-        const prdFind = ProductosA.find((producto) => producto.Nombre === nmPr);
+        const prdFind = productsA.find((producto) => producto.Nombre === nmPr);
         if (prdFind) {
           setIdProduct(prdFind.id);
         }
@@ -21,7 +21,7 @@ const Panel = () => {
       <table className={classes.tabla}>
         <thead>
           <tr className={classes.title}>
-            <th className={classes.tit}>PRODUCTOS</th>
+            <th className={classes.tit}>products</th>
             <th className={classes.tit}>CLIENTE</th>
             <th className={classes.tit}>CALIFICACIÓN</th>
             <th className={classes.opcColumn}>OPCIONES</th>

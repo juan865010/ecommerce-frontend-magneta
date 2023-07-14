@@ -1,4 +1,4 @@
-export const Productos = [
+export const Products = [
   {
     id: 112432,
     Nombre: "Iphone 13 Mini",
@@ -9,7 +9,7 @@ export const Productos = [
     Ancho: 0.7,
     Peso: 200,
     Descripcion:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat corrupti debitis fuga enim assumenda laudantium voluptatem repellendus accusantium quis, nihil esse corporis accusamus repudiandae labore molestiae ut possimus rem voluptate Rem nesciunt error vel non aut? Consequuntur ad magni saepe dolorem! Dolor magnam esse maxime ducimus exercitationem sit, repudiandae veritatis quas repellendus dicta distinctio enim eligendi? Nobis repellendus voluptatem sit!",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat corrupti debitis fuga enim assumenda laudantium voluptatem repellendus accusantium quis, nihil esse corporis accusamus repudiandae labore molestiae ut possimus rem voluptate Rem nesciunt error vel non aut? Consequuntur ad magni saepe dolorem! Dolor magnam esse maxime ducimus exercitationem sit, repudiandae veritatis quas repellendus dicta distinctio enim eligendi? Nobis repellendus voluptatem sit!',
     img: "./img/iphone13mini.jpg",
   },
   {

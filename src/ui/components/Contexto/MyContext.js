@@ -1,14 +1,14 @@
 import React, { createContext, useState } from "react";
 
 import { comentarios } from "../../../data/comentarios";
-import {Productos} from "../../../data/productos"
+import {products} from "../../../data/products"
 const MyContext = createContext();
 const MyContextProvider = (props) => {
   const [editar, setEditar] = useState(false);
   const [idComent, setIdComent] = useState(1);
   const [idProduct, setIdProduct] = useState(112432);
   const [Comentarios, setComentarios] = useState(comentarios)
-  const [ProductosA, setProductosA] = useState(Productos)
+  const [productsA, setproductsA] = useState(products)
 const [detalle, setDetalle] = useState(false)
   return (
     <MyContext.Provider
@@ -23,8 +23,8 @@ const [detalle, setDetalle] = useState(false)
         setIdProduct,
         Comentarios,
         setComentarios,
-        ProductosA,
-        setProductosA
+        productsA,
+        setproductsA
       }}
     >
       {props.children}

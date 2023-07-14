@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-around",
   },
   btn:{
-    color:'#fff',
+    color:theme.palette.primary.main,
     textAlign:'center',
     padding:5,
     borderRadius:7,
