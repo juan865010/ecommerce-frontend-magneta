@@ -1,7 +1,7 @@
-import useStyles from "./InfoFacSend.styles";
-import OrderSend from "./orderSend/OrderSend";
-import CheckForm from "./checkForm/CheckForm";
-import BreadCrumb from "./breadCrumb/BreadCrumb";
+import useStyles from './InfoFacSend.styles';
+import OrderSend from './orderSend/OrderSend';
+import CheckForm from './checkForm/CheckForm';
+import BreadCrumb from './breadCrumb/BreadCrumb';
 
 const InfoFacSend = () => {
   const classes = useStyles();

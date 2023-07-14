@@ -1,6 +1,6 @@
-import useStyles from "./confirmOrder.styles";
-import OrderSend from "../infoFacSend/orderSend/OrderSend";
-import Confirm from "./confirm/Confirm";
+import useStyles from './confirmOrder.styles';
+import OrderSend from '../infoFacSend/orderSend/OrderSend';
+import Confirm from './confirm/Confirm';
 import BreadCrumb from "../infoFacSend/breadCrumb/BreadCrumb";
 
 const ConfirmOrder = () => {

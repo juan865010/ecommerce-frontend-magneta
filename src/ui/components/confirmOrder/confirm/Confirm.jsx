@@ -1,4 +1,4 @@
-import useStyles from "./confirm.styles";
+import useStyles from './confirm.styles';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
