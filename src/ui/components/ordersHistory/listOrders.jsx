@@ -5,13 +5,12 @@ import { TableBody } from '@material-ui/core';
 import { TableContainer } from '@material-ui/core';
 import { TableRow } from '@material-ui/core';
 import {Divider} from '@material-ui/core';
-import useStyles from './ListaPedidos.style';
+import useStyles from './listOrders.style';
 import pedidos from '../../../respData/res-pedidos.json'
 
-
-const ListaPedidos = () => {
-  const classes=useStyles();
-  return (
+const listOrders = () => {
+    const classes=useStyles();
+    return (
     <TableContainer className={classes.boxContainer}>
       <Table className={classes.boxTable} aria-label="simple table">
               <div className={classes.titleStyle}>
@@ -47,4 +46,5 @@ const ListaPedidos = () => {
     </TableContainer>
   );
 }
-export default ListaPedidos
+
+export default listOrders

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import useStyles from './Preferences.style';
+import useStyles from './orderPreferences.style';
 import { Box,Typography } from '@material-ui/core'; 
 
-const Preferences = () => {
+const orderPreferences = () => {
     
     const classes = useStyles();
 
@@ -99,4 +99,4 @@ const Preferences = () => {
   )
 }
 
-export default Preferences
+export default orderPreferences

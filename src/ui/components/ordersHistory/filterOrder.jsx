@@ -3,33 +3,31 @@ import {Box} from '@material-ui/core'
 import {Typography} from '@material-ui/core'
 import {Divider} from '@material-ui/core'
 import {Slider} from '@material-ui/core';
-import useStyles from './FiltrarPedidos.style'
 import {SvgIcon} from '@material-ui/core';
 import { addDays,format } from 'date-fns';
 import { useState} from 'react';
 import { DateRange } from 'react-date-range'
 import 'react-date-range/dist/styles.css'; 
 import 'react-date-range/dist/theme/default.css';
-// 
 
-
+import useStyles from './filterOrder.style';
 
 function valuetext(value) {
-  return `${value}`;
-}
-const top = [
-  {
-    value: 0,
-    label: '0',
-  },
-  {
-    value: 100,
-    label: '100',
-  },
-];
-const FiltrarPedidos = () => {
-  
-const classes=useStyles();
+    return `${value}`;
+  }
+  const top = [
+    {
+      value: 0,
+      label: '0',
+    },
+    {
+      value: 100,
+      label: '100',
+    },
+  ];
+
+const filterOrder = () => {
+  const classes=useStyles();
 
 const [value, setValue] = React.useState([0, 30]);
 
@@ -223,4 +221,4 @@ const handleChanges = (event, newValue) => {
   );
 }
 
-export default FiltrarPedidos
+export default filterOrder
