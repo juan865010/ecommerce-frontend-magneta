@@ -11,7 +11,7 @@ import {SvgIcon} from '@material-ui/core';
 import { addDays,format } from 'date-fns';
 import { useState,useEffect } from 'react';
 import {  DateRange } from 'react-date-range'
-import useStyles from "./Filtral_style";
+import useStyles from './Filter_style';
 import { Paper } from '@material-ui/core'
 
 function valuetext(value) {

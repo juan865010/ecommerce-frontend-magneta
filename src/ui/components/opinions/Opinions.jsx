@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import useStyles from "./Opiniones.style";
-import { Container } from "@material-ui/core";
-import { Box } from "@material-ui/core";
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Button,} from "@material-ui/core";
+import React, { useEffect, useState } from 'react';
+import useStyles from './Opinions.style';
+import { Container } from '@material-ui/core';
+import { Box } from '@material-ui/core';
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Button,} from '@material-ui/core';
 
 
 const opiniones = [

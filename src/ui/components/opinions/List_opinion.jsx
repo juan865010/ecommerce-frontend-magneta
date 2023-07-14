@@ -1,10 +1,10 @@
 import React from 'react';
 import { Grid,Box, Container, Paper } from '@material-ui/core';
-import Filtrars from './filtrars/Filtrar';
-import useStyles from './Listaopinion_style';
-import Opiniones from './Opiniones';
+import Filtrars from './filtrars/Filter';
+import useStyles from './List_opinion_style';
+import Opiniones from './Opinions';
 
-const Listaopiniones = () => {
+const ListOpinions = () => {
   const classes = useStyles();
   return (
     <Box sx={{display:'flex',width:200}} >
@@ -26,4 +26,4 @@ const Listaopiniones = () => {
   );
 };
 
-export default Listaopiniones;
+export default ListOpinions;

@@ -1,7 +1,6 @@
-import Theme from "./Theme/Theme";
-import NavMenu from "./ui/components/navMenu/NavMenu";
-//import Opinions from "./ui/components/opinions/Opiniones"
-import Opinions from "./ui/components/opinions/Listaopinion"
+import Theme from './Theme/Theme';
+import NavMenu from './ui/components/navMenu/NavMenu';
+import Opinions from './ui/components/opinions/List_opinion';
 function App() {
   return (
     <Theme>

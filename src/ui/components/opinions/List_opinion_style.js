@@ -1,5 +1,5 @@
-import { makeStyles } from "@material-ui/core";
-import mq from "../../../config/mq";
+import { makeStyles } from '@material-ui/core';
+import mq from '../../../config/mq';
 const useStyles = makeStyles((theme) => ({
     containersx:{ 
         height:'673px',
@@ -13,14 +13,14 @@ const useStyles = makeStyles((theme) => ({
         height: '673px',
         width:'912px',
         borderRadius:'0.75rem',
-        backgroundColor:'#FFFFFF',
+        backgroundColor: theme.palette.primary.main,
     },
     xs:{
         display: 'flex',
         marginLeft:'24px',
         height: '673px',
         width:'240px',
-        backgroundColor:'#FFFFFF',
+        backgroundColor: theme.palette.primary.main,
     },
     
 }));

@@ -1,5 +1,5 @@
-import { makeStyles } from "@material-ui/core";
-import mq from "../../../config/mq";
+import { makeStyles } from '@material-ui/core';
+import mq from '../../../config/mq';
 const useStyles = makeStyles((theme) => ({
     Container:{
         width: "912px",
@@ -51,9 +51,6 @@ const useStyles = makeStyles((theme) => ({
         fontFamily:"Poppins-Regular",
         fontSize:"10px",
         gap: "41px",
-        
-        fontFamily: "Poppins",
-        fontSize: "10px",
         fontWeight: "700",
         lineHeight: "15px",
         letterSpacing: "0.03em",
