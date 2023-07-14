@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "name": "Cartera",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 10.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id": 2,
+        "name": "Bolsa",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 5.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id": 3,
+        "name": "Bolson",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 99.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id": 4,
+        "name": "Cartera",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 99.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id": 5,
+        "name": "Carterita",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 50.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id": 6,
+        "name": "Anillo de Oro",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 99.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id": 7,
+        "name": "Arete",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 99.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id": 8,
+        "name": "Bolsa Nike",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 99.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id": 9,
+        "name": "Bolson Nike",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 99.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id": 10,
+        "name": "Cartera Praga",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 99.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id":11,
+        "name": "Joya de Oro",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 99.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    },
+    {
+        "id":12,
+        "name": "Reloj",
+        "description": "This is an example description for the product.",
+        "category": "Electronics",
+        "price": 99.99,
+        "stockQuantity": 10,
+        "image": "image1.jpg",
+        "weight": "1.5 kg",
+        "dimensions": {
+          "length": "20 cm",
+          "width": "10 cm",
+          "height": "5 cm"
+        },
+        "quanty":1
+    }
+]
