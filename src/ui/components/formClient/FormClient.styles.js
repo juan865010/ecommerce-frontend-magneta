@@ -1,6 +1,6 @@
-import { makeStyles } from "@material-ui/core";
+import { makeStyles } from '@material-ui/core';
 import { borderRadius } from '@mui/system';
-import mq from "../../../config/mq";
+import mq from '../../../config/mq';
 const useStyles = makeStyles((theme) => ({
   box: {
     margin: "0 2rem 0 2rem",
@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     margin: "1rem",
     paddingBottom: "1rem ",
-    border: "1px solid #C0C0C0",
+    border: "3px solid" + theme.palette.primary.light,
     borderRadius: '3px'
   },
 
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
 
   title: {
     borderRadius: '5px',
-    backgroundColor: '#EFEFEF',
+    backgroundColor: theme.palette.primary.light,
     padding: "1rem 0 1rem 1rem",
     fontSize: "1.5rem ",
     marginTop: "-0.01rem",

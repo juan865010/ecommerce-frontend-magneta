@@ -1,11 +1,11 @@
-import useStyles from "./FormClient.styles";
+import useStyles from './FormClient.styles';
 import { Box, Typography } from '@material-ui/core';
 import FormControl from '@mui/material/FormControl';
 import TextField from '@mui/material/TextField';
 //import Phone from '../../../assets/icons/Flag_USA.svg'
-import { ReactComponent as Flag } from "../../../assets/icons/Flag_USA.svg";
-import { ReactComponent as Phone } from "../../../assets/icons/Phone.svg";
-import { ReactComponent as Email } from "../../../assets/icons/Email.svg";
+import { ReactComponent as Flag } from '../../../assets/icons/Flag_USA.svg';
+import { ReactComponent as Phone } from '../../../assets/icons/Phone.svg';
+import { ReactComponent as Email } from '../../../assets/icons/Email.svg';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import FormGroup from '@mui/material/FormGroup';
