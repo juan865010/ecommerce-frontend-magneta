@@ -1,4 +1,4 @@
-import { makeStyles } from "@material-ui/core";
+import { makeStyles } from '@material-ui/core';
 import mq from "../../../../../config/mq";
 const useStyles = makeStyles((theme) => ({
   wrapper: {
@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     borderBottom: '1px solid #D8D8D8',
+    backgroundColor: theme.palette.primary.main,
     margin: "0 50px 0 50px",
     
     
@@ -40,6 +41,9 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     
+  },
+  barra:{
+    color: '#red',
   }
 }));
 export default useStyles;

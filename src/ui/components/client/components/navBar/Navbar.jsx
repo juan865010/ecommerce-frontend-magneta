@@ -31,7 +31,7 @@ const classes = useStyles();
                     <a href="/" className={classes.link}>Accesorios</a>
                     <a href="/" className={classes.link}>Carteras</a>
                     <a href="/" className={classes.link}>Nosotros</a>
-                    <p>|</p>
+                    <span  style={{ color: "#707070" }}>|</span>
                     <img src={lupa} className={classes.image} alt="lupa" / >
                     <img src={corazon} className={classes.image} alt="corazon" />
                     <Link  to={"/cart"} ><img src={carrito} alt="carrito" className={classes.imagelink}/></Link>
