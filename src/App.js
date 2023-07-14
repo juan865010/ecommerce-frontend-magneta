@@ -11,6 +11,7 @@ import OptSend from "./ui/components/optSend/OptSend";
 import ConfirmOrder from "./ui/components/confirmOrder/ConfirmOrder";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Cliente from "./Cliente"
+import FormClient from "./ui/components/formClient/FormClient";
 function App() {
   return (
     <Theme>
@@ -21,8 +22,9 @@ function App() {
       <InfoFacSend />
       <ConfirmOrder />
       <Cliente/>
-    <PurchaseConfirmation/>
-    <Opinions />
+      <PurchaseConfirmation/>
+      <Opinions />
+      <FormClient />
     </Theme>
   );
 }
